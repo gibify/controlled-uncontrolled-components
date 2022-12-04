@@ -44,3 +44,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Uncontrolled Components:  Componentes não controlado, são componentes que não são controlados pelo estado do React e estes são renderizados pela DOM (Document Object Model). Então, para acessar qualquer valor que foi inserido, nós precisamos da ajuda dos refs(referências). Por exemplo, se quisermos inserir um valor como input, este não pode ser controlado, pois depende do navegador. Este é um caso de exemplo de um input não controlado.
